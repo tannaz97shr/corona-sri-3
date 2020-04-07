@@ -1,0 +1,24 @@
+.SumBox {
+    box-sizing: border-box;
+    margin-bottom: 4px;
+    text-align: center;
+    line-height: 80%;
+    background-color: #222222;
+    padding: 4px;
+    border: solid 1px #aaaaaa;
+}
+
+.List {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 4px;
+    background-color: #222222;
+}
+
+.Item {
+    box-sizing: border-box;
+    border-bottom: 0.05mm solid #aaaaaa;
+    font-size: 15px;
+    text-align: center;
+    padding: 8px;
+}

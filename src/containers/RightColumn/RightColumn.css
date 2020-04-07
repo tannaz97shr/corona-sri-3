@@ -1,0 +1,32 @@
+.TableContainer {
+    display: inline-block;
+    height: 80%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.TableConfirmed {
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    margin: 0;
+    height: 75vh;
+    overflow-y: scroll;
+    padding: 8px;
+    overflow-x: hidden;
+}
+
+.TableDeath {
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    height: 75vh;
+    vertical-align: top;
+    padding: 8px;
+    overflow-x: hidden;
+}
+
+.Box {
+    display: block;
+    height: 20%;
+}
