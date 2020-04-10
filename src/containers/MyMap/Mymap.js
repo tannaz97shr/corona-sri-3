@@ -89,15 +89,6 @@ class Mymap extends Component {
         return coronaData.map( dtl => {
             let opacity = 0;
             let count = Number(dtl[situation]);
-            // if (count > 350) {
-            //     opacity = 1;
-            // } else if (350 > count && count > 200) {
-            //     opacity = 0.75 ;
-            // } else if (200 > count && count > 100) {
-            //     opacity = 0.5 ;
-            // } else if (300 > count && count > 1) {
-            //     opacity = 0.25 ;
-            // }
             opacity = count / 1000;
             if (opacity > 1) {
                 opacity = 1;
