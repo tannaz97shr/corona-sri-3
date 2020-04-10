@@ -3,6 +3,7 @@ import React from "react";
 import './RightColumn.css';
 import Confirmed from "../Confirmed/Confirmed";
 import Death from '../Death/Death';
+import Mychart from "../MyChart/Mychart";
 
 const RightColumn = () => (
     <div>
@@ -15,7 +16,7 @@ const RightColumn = () => (
             </div>
         </div>
         <div className="Box">
-            Box chart
+            <Mychart />
         </div>
     </div>
 );
